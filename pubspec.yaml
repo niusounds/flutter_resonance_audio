@@ -1,0 +1,21 @@
+name: flutter_resonance_audio
+description: Resonance Audio plugin for Flutter.
+version: 0.0.1
+author: Yuya Matsuo <niu@niusounds.com>
+homepage: https://github.com/niusounds
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.niusounds.flutter_resonance_audio
+    pluginClass: FlutterResonanceAudio
