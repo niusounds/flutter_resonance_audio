@@ -4,17 +4,19 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_resonance_audio'
   s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.summary          = 'Resonance Audio plugin for Flutter.'
   s.description      = <<-DESC
-A new flutter plugin project.
+Resonance Audio plugin for Flutter.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/niusounds/flutter_resonance_audio'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Yuya Matsuo' => 'niu@niusounds.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
+  s.dependency 'GVRAudioSDK'
+  s.static_framework = true
 
   s.ios.deployment_target = '8.0'
 end
