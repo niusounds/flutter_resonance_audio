@@ -18,4 +18,4 @@ dev_dependencies:
 flutter:
   plugin:
     androidPackage: com.niusounds.flutter_resonance_audio
-    pluginClass: FlutterResonanceAudio
+    pluginClass: FlutterResonanceAudioPlugin

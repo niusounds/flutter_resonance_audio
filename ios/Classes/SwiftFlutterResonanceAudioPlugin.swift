@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftFlutterResonanceAudio: NSObject, FlutterPlugin {
+public class SwiftFlutterResonanceAudioPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_resonance_audio", binaryMessenger: registrar.messenger())
-    let instance = SwiftFlutterResonanceAudio()
+    let instance = SwiftFlutterResonanceAudioPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

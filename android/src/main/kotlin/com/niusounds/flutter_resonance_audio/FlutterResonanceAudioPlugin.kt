@@ -7,14 +7,14 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-class FlutterResonanceAudio(private val registrar: Registrar) : MethodCallHandler {
+class FlutterResonanceAudioPlugin(private val registrar: Registrar) : MethodCallHandler {
     private lateinit var gvrAudioEngine: GvrAudioEngine
 
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
             val channel = MethodChannel(registrar.messenger(), "flutter_resonance_audio")
-            channel.setMethodCallHandler(FlutterResonanceAudio(registrar))
+            channel.setMethodCallHandler(FlutterResonanceAudioPlugin(registrar))
         }
     }
 

@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_resonance_audio/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  flutter_resonance_audio: d2b4219b6b0abdb2e074d3d0460085c229bb4c3f
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_resonance_audio: 1560f23ec98d2803eb2927a36e86be6aa6854c8b
   GVRAudioSDK: bd444fd786ff3191cb1a33774253908b57e5710d
 
-PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
